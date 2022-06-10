@@ -4,4 +4,4 @@ We just a have developed a front end by now but soon we will be working on its f
 Project is deployed on Netlify which is hosting platform:
 Link for the same is:
 <a href="https://blive.netlify.app" target="_blank">
-https://blive.netlify.app</a>
+Blive Project</a>
