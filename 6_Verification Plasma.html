@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verification Page - Plasma Donor</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="Authenticity Verification/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="Authenticity Verification/css/style.css">
+</head>
+<body>
+    <h1>B.live</h1>
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <h3>Eligibility and Verification</h3>
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2>Eligibility Criteria-</h2>
+                        <h4>You CAN donate plasma if-</h4>
+                        <ol id="list" class="l123">
+                            <li>Your Age is between 18-65 years.</li>
+                            <li>Your Weight is 50kgs or above</li>
+                            <li>You have a prior diagnosis of COVID-19 (as documented by a diagnostic test)</li>
+                            <li>You have recovered from Covid-19 disease with complete resolution of symptoms at least 28 days before donation</li>
+                        </ol>
+                        <br>
+                        <h4>You CANNOT donate plasma if-</h4>
+                        <ol id="list" class="l123">
+                            <li>You have ever been pregnant (for women)</li>
+                            <li>You have uncontrolled diabetes or hypertension with change in medication in last 28 days</li>
+                            <li>You are a cancer survivor</li>
+                            <li>You have Chronic kidney/heart/lung/liver disease</li>
+                        </ol>
+                        <br>
+                        <h4>For more detailed information, click <a href="">here</a>.</h4>
+                    </div>
+                    <div class="signup-form">
+                        <h2>Personal Details-</h2>
+                        <h4>The Document must include the following details-</h4>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Name of the Person"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Age"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Gender"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"><h11>Date tested +ve</h11></i></label>
+                                <input type="date" name="name" id="name" class="date" placeholder="License no."/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"><h11>Date tested -ve</h11></i></label>
+                                <input type="date" name="name" id="name" class="date" placeholder="License no."/>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>I Agree that I have read and undersootd the Eligibility Criteria and am Eligible to donate Plasma</label>
+                            </div>
+                        </form>
+                        <br>
+                        <h5>Upload the Document here-</h5>
+                        <div class="form-group form-button">
+                            <input type="file" name="signin" id="signin" class="form-submit" value="Log in"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="button" >
+                    <input type="button" name="submit" id="submit" class="submit" value="Submit"/>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="Authenticity Verification/vendor/jquery/jquery.min.js"></script>
+    <script src="Authenticity Verification/js/main.js"></script>
+</body>
+</html>

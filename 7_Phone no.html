@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone no</title>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.css" data-turbolinks-track="reload" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.js" data-turbolinks-track="reload"></script>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="Phone Verification and OTP/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="Phone Verification and OTP/css/style.css">
+</head>
+<body>
+<h1>B.live</h1>
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Phone no. Verification</h2>
+                        <form method="POST" class="register-form" action="/phone_verification" accept-charset="UTF-8" id="register-form">
+                            <div  class="form-group">
+                                <label for="authy-countries" class="country-codes">Country code:</label>
+                                <select class="codes1" name="country_code" id="authy-countries" data-show-as="number"></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"><i class="zmdi zmdi-phone"></i></label>
+                                <input type="tel" name="phone" id="phone" placeholder="Your Phone no."/>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="button" name="signup" id="signup" class="form-submit" value="Send OTP"/><a href=""></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="Phone Verification and OTP/images/phone-image2" alt="sing up image"></figure>
+                        <a href="8_OTP.html" class="signup-image-link">Proceed for OTP Verification</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="Phone Verification and OTP/vendor/jquery/jquery.min.js"></script>
+    <script src="Phone Verification and OTP/js/main.js"></script>
+</body>
+</html>
